@@ -24,6 +24,7 @@ function main() {
          union(bottom, body, collar)
         );
 
-
-    return base;
+    var head = sphere();
+    
+    return union(base, head);
 }

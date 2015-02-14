@@ -8,16 +8,18 @@ function main() {
   ).subtract(
     square([14, 2]).translate([-7, -2])
   );
-  var body = square([3, 10], {center:true}).translate([1.5, 6]).subtract(
-    circle({center:true}).scale([1, 6]).translate([3, 7.7])
+  var body = square([3, 14], {center:true}).translate([1.5, 9.8]).subtract(
+    circle({center:true}).scale([1, 7]).translate([3, 9.8])
   );
   var collar = circle({center:true})
   .scale([4, 0.5]).subtract(
     square([4, 2]).translate([-4, -1])
   )
-  .translate([0, 11]);
+  .translate([0, 17]);
 
-  var head = circle({center:true}).scale(2.5).translate([0, 13.9]);
+  var head = circle({center:true}).scale([2, 3]).union(
+    circle({center:true}).scale(0.4).translate([0, 3.3])
+  ).translate([0, 20]);
 
   var base = rotate_extrude({fn: 128},
     union(bottom, body, collar, head)

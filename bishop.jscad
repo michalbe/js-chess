@@ -1,4 +1,4 @@
-// title: js-chess pawn
+// title: js-chess bishop
 // author: @michalbe
 // url: http://github.com/michalbe/js-chess
 

@@ -6,3 +6,4 @@
  - ♞ Knight
  - ♗ [Bishop](https://github.com/michalbe/js-chess/blob/master/stl/bishop.stl)
  - ♜ [Rook](https://github.com/michalbe/js-chess/blob/master/stl/rook.stl)
+ - ♕ [Queen](https://github.com/michalbe/js-chess/blob/master/stl/queen.stl)

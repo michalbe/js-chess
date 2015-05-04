@@ -1,4 +1,4 @@
-// title: js-chess bishop
+// title: js-chess rook
 // author: @michalbe
 // url: http://github.com/michalbe/js-chess
 
@@ -9,9 +9,9 @@ function main() {
     square([14, 2]).translate([-7, -2])
   );
   var body = square([3, 14], {center:true}).translate([1.5, 9.8]).subtract(
-    circle({center:true}).scale([2, 7]).translate([3.7, 8.1])
+    circle({center:true}).scale([2, 7]).translate([3.7, 9.7])
   ).scale([1.4, 1]);
-  
+
   var head = square([5, 5]).subtract(
     square([4, 1]).translate([0, 4])
   ).translate([0, 16.5]);

@@ -11,12 +11,12 @@ function main() {
   var body = square([3, 14], {center:true}).translate([1.5, 9.8]).subtract(
     circle({center:true}).scale([1, 7]).translate([3, 9.8])
   );
-  var collar = square([1, 1])
+  var head = square([1, 1])
   .scale([4, 5])
   .translate([0, 16]);
 
   var base = //rotate_extrude({fn: 128},
-    union(bottom, body, collar)
+    union(bottom, body, head)
   //);
 
   return base;

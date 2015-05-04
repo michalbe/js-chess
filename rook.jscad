@@ -8,9 +8,9 @@ function main() {
   ).subtract(
     square([14, 2]).translate([-7, -2])
   );
-  var body = square([3, 14], {center:true}).translate([1.5, 9.8]).subtract(
+  var body = square([3, 14], {center:true}).translate([1.5, 9.5]).subtract(
     circle({center:true}).scale([2, 7]).translate([3.7, 9.7])
-  ).scale([1.4, 1]);
+  ).scale([1.5, 1]);
 
   var head = square([5, 5]).subtract(
     square([4, 1]).translate([0, 4])

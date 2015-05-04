@@ -11,6 +11,7 @@ function main() {
   var body = square([3, 14], {center:true}).translate([1.5, 9.8]).subtract(
     circle({center:true}).scale([2, 7]).translate([3.7, 8.1])
   ).scale([1.4, 1]);
+  
   var head = square([5, 5]).subtract(
     square([4, 1]).translate([0, 4])
   ).translate([0, 16.5]);
